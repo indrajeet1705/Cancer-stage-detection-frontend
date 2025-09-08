@@ -35,7 +35,7 @@ const Home = () => {
   }
   return (
     <div className="w-full flex flex-col">
-      {/* Heading */}
+
       <div className="flex gap-5 mx-auto flex-col items-center mt-10">
         <h1 className="text-5xl flex gap-5 font-extrabold bg-gradient-to-r from-blue-600 via-pink-400 to-yellow-400 bg-clip-text text-transparent">
            Cancer Stage Detection
@@ -46,10 +46,9 @@ const Home = () => {
         </p>
       </div>
 
-      {/* Form Section */}
       <div className="flex mt-10 justify-evenly">
         <div className="w-[800px] border border-slate-300 shadow-md p-8 rounded-xl bg-white">
-          {/* Title */}
+         
           <h1 className="flex gap-2 items-center text-slate-700 text-xl font-semibold">
             <IoInformationCircleOutline size={30} />
             Patient Details
@@ -59,7 +58,7 @@ const Home = () => {
           </p>
           <div className="flex justify-between">
             <div className="w-[300px]">
-              {/* Age */}
+           
               <div className="gap-2 flex flex-col mt-4">
                 <label className="text-slate-700 font-medium">
                   Age (in years)
@@ -73,7 +72,6 @@ const Home = () => {
                 />
               </div>
 
-              {/* Tumor Size */}
               <div className="gap-2 flex flex-col mt-4">
                 <label className="text-slate-700 font-medium">Tumor Size</label>
                 <input
@@ -85,7 +83,6 @@ const Home = () => {
                 />
               </div>
 
-              {/* Tumor Grade */}
               <div className="gap-2 flex flex-col mt-4">
                 <label className="text-slate-700 font-medium">
                   Tumor Grade
@@ -102,7 +99,6 @@ const Home = () => {
                   <option value="Undifferentiated; Grade IV">Grade IV: Undifferentiated</option>
                 </select>
               </div>
-              {/* T Stage */}
               <div className="gap-2 flex flex-col mt-4">
                 <label className="text-slate-700 font-medium">T Stage</label>
                 <select 
@@ -120,7 +116,6 @@ const Home = () => {
             </div>
 
             <div className=" w-[300px]">
-              {/* N Stage */}
               <div className="gap-2 flex flex-col mt-4">
                 <label className="text-slate-700 font-medium">N Stage</label>
                 <select
@@ -168,7 +163,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Side */}
         <div className="w-[400px] border border-slate-300 shadow-md rounded-xl p-6 bg-white">
         <h1 className=" flex font-semibold text-slate-700 text-xl gap-3 "><IoIosCheckmarkCircleOutline size={30} color="green"/> Result</h1>
          {
